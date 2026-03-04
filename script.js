@@ -10,7 +10,7 @@ class Animal {
 	}
 	makeSound()
 	{
-		console.log("The"+this.species+"makes a sound")
+		console.log(`The ${this.species} makes a sound`)
 	}
 }
 
@@ -19,7 +19,7 @@ class Cat extends Animal {
 	{
 		super(species)
 	}
-	purr{
+	purr(){
 		console.log("purr")
 	}
 }
